@@ -1,0 +1,13 @@
+train: C:\Users\loges\PycharmProjects\sperm\train\images
+val: C:\Users\loges\PycharmProjects\sperm\valid\images
+test: C:\Users\loges\PycharmProjects\sperm\test\images
+
+nc: 9
+names: ['agglutination', 'coiled-tail', 'dirt-particles', 'distal-droplet', 'folded-tail', 'loose-head', 'loose-tail', 'normal', 'proximal-droplet']
+
+roboflow:
+  workspace: ssthiyasowmi
+  project: bovine-sperm-cells-test-we5vb
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ssthiyasowmi/bovine-sperm-cells-test-we5vb/dataset/1
